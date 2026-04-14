@@ -1,76 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- /Font -->
+
     <link rel="stylesheet" href="style.css">
-
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <!-- /font -->
-
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <div class="header-div container">
 
-            <img class="header-img" src="icon/dci.svg" alt="DCI icon image" width="120px" height="56px">
-            <!-- nav -->
+    <!-- HEADER -->
+    <header>
+        <div class="container header-box">
+
+            <img src="icon/dci.svg" alt="logo" class="logo">
+
             <nav>
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="#">Services</a></li>
-                    <li class="nav-list__item"><a href="#">Product</a></li>
-                    <li class="nav-list__item"><a href="#">Technology</a></li>
-                    <li class="nav-list__item"><a href="#">About <img src="icon/chevron_down.svg"
-                                alt="arrow icon image"></a></li>
-                    <li class="nav-list__item"><a href="#">Client <img src="icon/chevron_down.svg"
-                                alt="arrow icon image">
-                        </a></li>
-                    <li class="nav-list__item"><a href="#">Partner</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Technology</a></li>
+
+                    <li>
+                        <a href="#">
+                            About
+                            <img src="icon/chevron_down.svg" alt="arrow image">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Client
+                            <img src="icon/chevron_down.svg" alt="arrow image">
+                        </a>
+                    </li>
+
+                    <li><a href="#">Partner</a></li>
                 </ul>
             </nav>
-            <!-- /nav -->
 
-            <div class="header-box">
-                <img src="icon/Union.svg" alt="Union icon image" width="15px" height="14.3px">
-                <img src="icon/mail.svg" alt="Mail icon image" width="15px" height="14.3px">
-                <img src="icon/shuffle.svg" alt="shuffle icon image" width="15px" height="14.3px">
+            <div class="header-icons">
+                <img src="icon/Union.svg" alt="Union image">
+                <img src="icon/mail.svg" alt="Icon image">
+                <img src="icon/shuffle.svg" alt="Shuffle image">
             </div>
 
         </div>
     </header>
-    <!-- /header -->
 
-    <main class="container">
-        <section class="hero-section">
-            <article>
-                <h1>Making the most of the ever-growing
+    <!-- HERO -->
+    <main>
+        <div class="hero-section container">
+
+            <div class="hero-text">
+                <h1>
+                    Making the most of the ever-growing
                     <span>Information Technology</span>
                 </h1>
 
-                <p>Managed by a team of professional experts with extensive experience and impressive track records</p>
+                <p>
+                    Managed by a team of professional experts with extensive experience and impressive track records
+                </p>
 
                 <button>Read More</button>
-            </article>
-            <div class="hero-box">
-                <img src="image/devices.svg" alt="devices image" class="hero-secction__image" width="532px"
-                    height="351px">
             </div>
-        </section>
 
-        <section class="intro-section">
+            <div class="hero-img">
+                <img src="image/devices.svg" alt="devices">
+            </div>
+
+        </div>
+
+        <!-- INTRO PART -->
+  <div class="intro-color">
+          <div class="intro-section container">
             <div class="intro-box">
-                <img src="image/pana.svg" alt="pana image" width="432px" height="452px">
+                <img src="image/pana.svg" alt="pana image">
             </div>
             <article>
-                <h3>Welcome to <span>Dwidasa Samsara Indonesia (DSI)</span></h3>
+                <h3>Welcome to <span>Dwidasa Samsarafigma Indonesia (DSI)</span></h3>
                 <p>
                     Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by the founders, who each of them
                     has a common end objective to innovate new creations by making the most of the ever-growing
@@ -83,9 +97,10 @@
                     and efficiently.
                 </p>
             </article>
-        </section>
-
+        </div>
+  </div>
     </main>
+
 </body>
 
 </html>
