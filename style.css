@@ -108,8 +108,8 @@ a {
 }
 
 .hero-img img {
-    width: 470px;
-    max-width: 470px;
+    width: 470px; 
+    max-width: 470px; 
 }
 
 /* INTRO SECTION */
@@ -119,25 +119,25 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 60px;
-    padding: 80px 0;
+    padding: 80px auto;
 }
 
 .intro-color {
     background-color: #F6F6F6;
 }
 
-.intro-box {
+/* .intro-box {
     display: flex;
-}
+} */
 
 .intro-box img {
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
     height: auto;
 }
 
 .intro-section article {
-    max-width: 600px;
+    max-width: 466px;
 }
 
 .intro-section h3 {
@@ -296,9 +296,9 @@ a {
     .intro-section p {
         font-size: 15px;
         line-height: 1.7;
-    } */
-/* 
+    } 
+
     .intro-box img {
         max-width: 700px;
-    } */
+    } 
 }
